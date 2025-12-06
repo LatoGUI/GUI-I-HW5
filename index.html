@@ -1,0 +1,49 @@
+<!--
+    File: index.html
+    GUI Assignment: HW5 - Implementing a Bit of Scrabble with Drag-and-Drop
+    Platon Supranovich, UMass Lowell Computer Science, Platon_Supranovich@student.uml.edu
+    Copyright (c) 2025 by Platon. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+    updated by PS on November 27, 2025 at 8:00 AM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scrabble</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+</head>
+<body>
+    <h1>Scrabble</h1>
+
+    <div id="tileHolder">
+        <div id="rack" class="tile-container"></div>
+    </div>
+    
+    <div id="board" class="board-row">
+        <div class="drop-slot bonus" data-bonus="double-letter">Double Letter</div>
+        <div class="drop-slot"></div>
+        <div class="drop-slot"></div>
+        <div class="drop-slot bonus" data-bonus="triple-word">Triple Word</div>
+        <div class="drop-slot"></div>
+        <div class="drop-slot"></div>
+        <div class="drop-slot"></div>
+    </div>
+
+    <div id="info-panel">
+        <div id="wordDisplay">Word: </div>
+        <div id="highestScore">Highest Score: 0</div>
+        <div id="remainingTiles">Remaining Tiles: 0</div>
+    </div>
+
+    <button id="nextWord">Next Word</button>
+    <button id="resetGame">New Game</button>
+    <div id="score">Total Score: 0</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
