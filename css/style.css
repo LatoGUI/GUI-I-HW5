@@ -79,7 +79,7 @@ body {
     width: 500px; 
     height: 110px; 
     margin: 20px auto;
-    background-image: url("graphics_data/scrabble-tile-holder-406774_640.png"); 
+    background-image: url("../graphics_data/scrabble-tile-holder-406774_640.png"); 
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-position: center;
